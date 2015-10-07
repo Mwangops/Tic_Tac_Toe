@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General strings used widely on the app -->
+    <string name="app_name">Jogo da Velha</string>
+    <string name="app_version">1.2</string>
+    <string name="tracking_id">UA-66003108-1</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6735645747345964/7755046931</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-6735645747345964/9231780132</string>
+    <string name="id_note3">A4FE52E947A736595F5FBBB09E75731F</string>
+
+    <!-- Strings from the Main Activity -->
+    <string name="button_play">Jogar</string>
+    <string name="button_statistics">Estatísticas</string>
+    <string name="button_help">Ajuda</string>
+    <string name="button_exit">Sair</string>
+
+    <!-- Main Activity Alert Dialogs -->
+    <string name="play_dialog_title">Tipo de jogo?</string>
+    <string-array name="play_dialog_options">
+        <item>@string/option_player_vs_player</item>
+        <item>@string/option_player_vs_android</item>
+    </string-array>
+    <string name="option_player_vs_player">Jogador vs. Jogador</string>
+    <string name="option_player_vs_android">Jogador vs. Android</string>
+    <string name="difficulty_dialog_title">Dificuldade</string>
+    <string-array name="difficulty_dialog_options">
+        <item>@string/easy_label</item>
+        <item>@string/medium_label</item>
+        <item>@string/hard_label</item>
+        <item>@string/extreme_label</item>
+    </string-array>
+    <string name="easy_label">Fácil</string>
+    <string name="medium_label">Média</string>
+    <string name="hard_label">Difícl</string>
+    <string name="extreme_label">Insana</string>
+    <string name="multiplayer_dialog_title">PvP</string>
+    <string-array name="multiplayer_dialog_options">
+        <item>@string/option_local_pvp</item>
+        <item>@string/option_network_pvp</item>
+    </string-array>
+    <string name="option_local_pvp">PvP Local</string>
+    <string name="option_network_pvp">PvP Online</string>
+
+    <!-- Main Menu -->
+    <string name="menu_option_setting">Configuração</string>
+    <string name="menu_option_contact">Contacto</string>
+    <string name="menu_option_about">Sobre</string>
+    <string name="menu_option_more_games">Mais Jogos&#8230;</string>
+
+
+    <!-- PvA Strings -->
+    <string name="pva_tittle">Jogador vs. Android</string>
+    <string name="wins_label">Vitórias  </string>
+    <string name="ties_label">Empates  </string>
+    <string name="loses_label">Derrotas  </string>
+    <string name="player_turn">É sua vez de jogar</string>
+    <string name="android_turn">É a vez do Android</string>
+    <string name="win_info">Você venceu!</string>
+    <string name="lose_info">Ups, você perdeu!</string>
+    <string name="tie_info">Ah&#8230; É um empate</string>
+    <string name="new_game_button">Novo Jogo</string>
+    <string name="new_game_alert_title">Começar um novo jogo?</string>
+    <string name="new_game_alert_message">Se começar um novo jogo este será marcado como uma derrota.</string>
+    <string name="new_game_alert_positive">Continuar</string>
+    <string name="new_game_alert_negative">Cancelar</string>
+
+    <!-- PvA Menu -->
+    <string name="menu_option_new_game">Novo Jogo</string>
+    <string name="menu_option_stats">Estatísticas</string>
+</resources>

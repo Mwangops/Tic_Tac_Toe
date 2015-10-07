@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".PvAGame" >
+    <item android:id="@+id/menu_option_new_game"
+        android:title="@string/menu_option_new_game"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/menu_option_stats"
+        android:title="@string/menu_option_stats"
+        android:orderInCategory="101" app:showAsAction="never" />
+    <item android:id="@+id/menu_option_setting"
+        android:title="@string/menu_option_setting"
+        android:orderInCategory="102" app:showAsAction="never" />
+</menu>

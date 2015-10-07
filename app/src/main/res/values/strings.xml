@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General strings used widely on the app -->
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="app_version">1.2</string>
+    <string name="tracking_id">UA-66003108-1</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6735645747345964/7755046931</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-6735645747345964/9231780132</string>
+    <string name="id_note3">A4FE52E947A736595F5FBBB09E75731F</string>
+
+    <!-- Strings from the Main Activity -->
+    <string name="button_play">Play</string>
+    <string name="button_statistics">Statistics</string>
+    <string name="button_help">Help</string>
+    <string name="button_exit">Exit</string>
+
+    <!-- Main Activity Alert Dialogs -->
+    <string name="play_dialog_title">Type of game?</string>
+    <string-array name="play_dialog_options">
+        <item>@string/option_player_vs_player</item>
+        <item>@string/option_player_vs_android</item>
+    </string-array>
+    <string name="option_player_vs_player">Player vs. Player</string>
+    <string name="option_player_vs_android">Player vs. Android</string>
+    <string name="difficulty_dialog_title">Difficulty</string>
+    <string-array name="difficulty_dialog_options">
+        <item>@string/easy_label</item>
+        <item>@string/medium_label</item>
+        <item>@string/hard_label</item>
+        <item>@string/extreme_label</item>
+    </string-array>
+    <string name="easy_label">Easy</string>
+    <string name="medium_label">Medium</string>
+    <string name="hard_label">Hard</string>
+    <string name="extreme_label">Extreme</string>
+    <string name="multiplayer_dialog_title">PvP</string>
+    <string-array name="multiplayer_dialog_options">
+        <item>@string/option_local_pvp</item>
+        <item>@string/option_network_pvp</item>
+    </string-array>
+    <string name="option_local_pvp">Local PvP</string>
+    <string name="option_network_pvp">Online PvP</string>
+
+    <!-- Main Menu -->
+    <string name="menu_option_setting">Settings</string>
+    <string name="menu_option_contact">Contact</string>
+    <string name="menu_option_about">About</string>
+    <string name="menu_option_more_games">More Games&#8230;</string>
+
+
+    <!-- PvA Strings -->
+    <string name="pva_tittle">Player vs. Android</string>
+    <string name="wins_label">Wins  </string>
+    <string name="ties_label">Ties  </string>
+    <string name="loses_label">Loses  </string>
+    <string name="player_turn">It\'s your turn</string>
+    <string name="android_turn">It\'s Android\'s turn</string>
+    <string name="win_info">You Win!</string>
+    <string name="lose_info">Ups, You Lost!</string>
+    <string name="tie_info">Af&#8230; It\'s a tie</string>
+    <string name="new_game_button">New Game</string>
+    <string name="new_game_alert_title">Start a new game?</string>
+    <string name="new_game_alert_message">If you start a new game this one will be mark as a lose.</string>
+    <string name="new_game_alert_positive">Continue</string>
+    <string name="new_game_alert_negative">Cancel</string>
+
+    <!-- PvA Menu -->
+    <string name="menu_option_new_game">New Game</string>
+    <string name="menu_option_stats">Statistics</string>
+</resources>
